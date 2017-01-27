@@ -3,13 +3,15 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
 	<title>Flavors Creative Group</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="css/style.css" rel="stylesheet" media="screen">
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
-	<!--<link href="http://fonts.googleapis.com/css?family=Open+Sans:400, 600" rel="stylesheet" type='text/css'>-->
-	<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script src="js/myApp.js"></script>
 	<style>
 
 
@@ -33,7 +35,20 @@
 				<ul class="nav navbar-nav navbar-left">
 					<li><a href="index.html">home</a></li>
 					<li class="active"><a href="news.html">news</a></li>
-					<li><a href="shop.html">shop</a></li>
+					<li class="dropdown">
+	              		<a href="shop.html" class="dropdown-toggle">shop <b class="caret"></b></a>
+	              		<ul class="dropdown-menu">
+			                <li><a href="#">oneOffs</a></li>
+			                <li><a href="shirts.html">shirts</a></li>
+			                <li><a href="#">sweatshirts</a></li>
+			                <li class="divider"></li>
+			                <li><a href="#">headware</a></li>
+			                <li><a href="#">outerwear</a></li>
+			                <li><a href="#">accessories</a></li>
+			           		<li class="divider"></li>
+			           		<li><a href="#">sale</a></li>
+	              		</ul>
+	            		</li>
 					<li><a href="about.html">about</a></li>
 					<li><a href="contact.html">contact</a></li>
 				</ul>
@@ -99,5 +114,21 @@
 	</div>
 
 </body>
+
+<!-- FOOTER -->
+<div class="footer">
+	<ul class="list-inline intro-social-buttons">
+        <li>
+          <a href="https://www.facebook.com/flavorscreative/"><i class="fa fa-facebook fa-4x" style="color:black"></i></a>
+        </li>
+        <li>
+           <a href="https://twitter.com/flavorrrs"><i class="fa fa-twitter fa-4x" style="color:black"></i></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/flavors.group/"><i class="fa fa-instagram fa-4x" style="color:black"></i></a>
+        </li>
+     </ul>
+ </div>
+<!--/END FOOTER -->
 
 </html>
