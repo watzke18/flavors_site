@@ -1,2 +1,2 @@
-# flavors_site
-website for flavors creative group
+# flvrs
+potential website for flavors
